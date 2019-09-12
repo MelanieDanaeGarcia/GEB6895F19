@@ -47,13 +47,15 @@ help(lm)
 # The remove function removes everything in the workspace when the list is all.
 rm(list=ls(all=TRUE))
 
+#rm means 'remove'
+
 # Load library of functions.
 # source('MyRcode1.R')
 
 # Set working directory.
 # The '<-' operator denotes right-to-left assignment.
 # wdPath <- '/path/to/your/folder'
-wdPath <- 'C:/Users/le279259/Documents/Teaching/GEB6895_Fall2019/GitRepos/demo_03_intro_to_R'
+wdPath <- 'C:/Users/mdgar/OneDrive/Documents/School/GEB_6895/Git_Hub_Work/Assignment_1/GEB6895F19/demo_03_intro_to_R'
 setwd(wdPath)
 
 # Check this in unix (doesn't always work in Windows).
@@ -137,6 +139,13 @@ pi_plus <- some_numbers.integers + value_of_pi
 
 # The concatenation function c() is used to form lists of objects.
 more_integers <- c(some_numbers.integers, 11:15)
+
+#Let's break this
+some_numbers.integers + more_integers
+#this may not be what you want, so it gives you a warning
+
+c(1,2,3,4,5,6) + c(1,2)
+#But this worked...
 
 
 # Lets make a vector of important numbers.

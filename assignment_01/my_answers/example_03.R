@@ -5,7 +5,7 @@
 
 colornum <- function(num_in)
 
-num_in <- read.line(prompt="Enter a number: ").
+  num_in <- read.line(prompt="Enter a number: ").
   
 {
   if (0>num_in<=10)

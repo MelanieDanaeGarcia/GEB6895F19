@@ -5,7 +5,7 @@ x_values <- seq(1,200)
 mult <- function(x)
 
 {
-  mod <- x %% (5) == 0
+  mod <- x*5
   
   return(mod)
 }

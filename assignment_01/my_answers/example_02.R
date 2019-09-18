@@ -3,19 +3,19 @@
 readnum <- function(num_in)
   
 {
-num_in <- read.line(prompt="Enter a number: ").
-
-if (num_in=5)
-{
-  return("Your number is 5.")
-} else
- 
-if (num_in=6)
-{
-  return("Your number is 6.")
-} else 
-
-{
-  return("Your number is not 5 or 6.")
-}
+  num_in <- read.line(prompt="Enter a number: ").
+  
+  if (num_in=5)
+  {
+    print("Your number is 5.")
+  } 
+    
+  if (num_in=6)
+  {
+    print("Your number is 6.")
+  } 
+  else 
+  {
+    print("Your number is not 5 or 6.")
+  }
 }
